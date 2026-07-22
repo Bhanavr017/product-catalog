@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Catalog</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-content">
+        <p class="eyebrow">DOM Assignment</p>
+        <h1 class="page-title">Product Catalog</h1>
+        <p class="page-description">
+          Products created dynamically using JavaScript DOM manipulation.
+        </p>
+      </div>
+    </header>
+    <main class="page-container">
+      <section class="catalog-section">
+        <div class="catalog-heading">
+          <div>
+            <p class="section-label">Available Products</p>
+            <h2 class="section-title">Explore the catalog</h2>
+          </div>
+          <p id="productCount" class="product-count">0 Products</p>
+        </div>
+        <div id="productsContainer" class="products-grid"></div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
